@@ -1,14 +1,16 @@
 import React from "react";
 
+
+
 function Home() {
   return (
-      <div className="card mb-3 text-center" style={{maxwidth: 540}}>
+      <div className="card mb-3 text-center" style={{maxwidth: "540px"}}>
         <div className="row no-gutters justify-content-center">
           <div className="col-md-8">
             <h5 className="card-title">James Davies</h5>
             <img
 
-              src="../../public/IMG_1173.jpeg"
+              src="/images/me.jpeg"
               className="card-img"
               alt="portrait"
             />

@@ -47,7 +47,7 @@
 
 body{
   padding-bottom: 100px;
-  background-image: url("../public/white_plaster/white_plaster.png");
+  background-image: url("/images/white_plaster/white_plaster.png");
 }
 
 h1, h5, h3, a, .copyright{
@@ -71,14 +71,15 @@ p, .list-group-item{
 }
 
 .jumbotron{
-  background-image: url("../public/white_plaster/white_plaster.png");
+  background-image: url("/images/white_plaster/white_plaster.png");
   text-align: center;
 }
 
 .mb-3{
   margin: 0 auto;
   padding: 20px;
-  background-image: url("../public/white_texture/white_texture.png");
+  background-image: url("/images/white_texture/white_texture.png");
+  max-width: 540px;
 }
 :hover.mb-3, :hover.card{
   border-color: yellowgreen;
@@ -106,7 +107,7 @@ p, .list-group-item{
 }
 
 .project-one, .project-two, .project-three, .project-four, .project-five, .project-six, .list-group-item{
-  background-image: url(../public/white_texture/white_texture.png);
+  background-image: url("/images/white_texture/white_texture.png");
 }
 
 .finalcard{
@@ -132,7 +133,7 @@ p, .list-group-item{
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-image: url("../public/white_plaster/white_plaster.png");
+  background-image: url("/images/white_plaster/white_plaster.png");
   border-style: solid;
   border-left: 0;
   border-right: 0;

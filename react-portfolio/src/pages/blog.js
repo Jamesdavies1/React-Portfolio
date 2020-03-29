@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home() {
+function Blog() {
   return (
       <div>
         <div className="jumbotron jumbotron-fluid home-jumbo">
@@ -24,4 +24,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Blog;

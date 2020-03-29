@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-// import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import './style.css';
 import Home from './pages/home';
 import Contact from './pages/contact';
 import Projects from './pages/projects';
@@ -14,10 +14,12 @@ function App() {
     <Router>
       <div className = "App">
         <Navigation />
+        <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/Contact" component={Contact} />
           <Route path="/Projects" component={Projects} />
           <Route path="/Blog" component={Blog} />
+          </Switch>
           <Footer />
       </div>
     </Router>

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home() {
+function Projects() {
   return (
       <div>
     <div className="jumbotron jumbotron-fluid">
@@ -9,7 +9,7 @@ function Home() {
     </div>
 </div>
 
-<div className="card project-one text-center" style="width: 18rem;">
+<div className="card project-one text-center" style={{width: 18+"rem"}}>
     <div className="card-body">
         <h5 className="card-title">Movie Mystery</h5>
         <h6 className="card-subtitle mb-2 text-muted">Group Project</h6>
@@ -18,12 +18,12 @@ function Home() {
             allowing us to gain information from different databases, providing us with the questions and answers
             from our favourite movies!
         </p>
-        <a href="https://vernerkeel.github.io/MovieMystery/index.html" className="card-link" target="_blank">Webpage</a>
-        <a href="https://github.com/vernerkeel/MovieMystery" className="card-link link-right" target="_blank">GitHub</a>
+        <a href="https://jamesdavies1.github.io/Project-1---Movie-Mystery/" className="card-link" target="_blank">Webpage</a>
+        <a href="https://github.com/Jamesdavies1/Project-1---Movie-Mystery" className="card-link link-right" target="_blank">GitHub</a>
     </div>
 </div>
 
-<div className="card project-two text-center" style="width: 18rem;">
+<div className="card project-two text-center" style={{width: 18+"rem"}}>
     <div className="card-body">
         <h5 className="card-title">Day planner</h5>
         <h6 className="card-subtitle mb-2 text-muted">Solo Project</h6>
@@ -37,7 +37,7 @@ function Home() {
     </div>
 </div>
 
-<div className="card project-three text-center" style="width: 18rem;">
+<div className="card project-three text-center" style={{width: 18+"rem"}}>
     <div className="card-body">
         <h5 className="card-title">Code Quiz</h5>
         <h6 className="card-subtitle mb-2 text-muted">Solo Project</h6>
@@ -50,7 +50,7 @@ function Home() {
     </div>
 </div>
 
-<div className="card project-four text-center" style="width: 18rem;">
+<div className="card project-four text-center" style={{width: 18+"rem"}}>
     <div className="card-body">
         <h5 className="card-title">Password generator</h5>
         <h6 className="card-subtitle mb-2 text-muted">Solo Project</h6>
@@ -63,7 +63,7 @@ function Home() {
     </div>
 </div>
 
-<div className="card project-five text-center" style="width: 18rem;">
+<div className="card project-five text-center" style={{width: 18+"rem"}}>
     <div className="card-body">
         <h5 className="card-title">Weather dashboard</h5>
         <h6 className="card-subtitle mb-2 text-muted">Solo Project</h6>
@@ -77,7 +77,7 @@ function Home() {
     </div>
 </div>
 
-<div className="card project-six text-center" style="width: 18rem;">
+<div className="card project-six text-center" style={{width: 18+"rem"}}>
     <div className="card-body">
         <h5 className="card-title">Drip Advisor</h5>
         <h6 className="card-subtitle mb-2 text-muted">Group Project</h6>
@@ -85,6 +85,7 @@ function Home() {
             breweries in their selected area and rate them. A log in feature is present but currently a work in
             progress.
         </p>
+        <a href="https://group-project-02.herokuapp.com" className="card-link" target="_blank">Webpage</a>
         <a href="https://github.com/Bethanjames93/bootcamp_beeefcakes" className="card-link link-right"
             target="_blank">GitHub</a>
     </div>
@@ -93,4 +94,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Projects;
