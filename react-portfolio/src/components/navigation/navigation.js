@@ -1,21 +1,21 @@
 import React from "react";
-import "./navigation.css";
-// import { Link } from "react-router-dom";
 
 function Navigation () {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div className="navbar-nav">
-      <a className="nav-item nav-link active" href="#">Home <span className="sr-only">(current)</span></a>
-      <a className="nav-item nav-link" href="#">Projects</a>
-      <a className="nav-item nav-link" href="#">Contact</a>
-    </div>
-  </div>
-</nav>
+      <ul className="nav justify-content-center">
+      <li className="nav-item">
+          <a className="nav-link active" href="./projects.html">Projects</a>
+      </li>
+      <li className="nav-item">
+          <a className="nav-link" href="./index.html">Home</a>
+      </li>
+      <li className="nav-item">
+          <a className="nav-link" href="./blog.html">Blog</a>
+      </li>
+      <li className="nav-item">
+          <a className="nav-link" href="./contact.html">Contact</a>
+      </li>
+  </ul>
     )
 }
 

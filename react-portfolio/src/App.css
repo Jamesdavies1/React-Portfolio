@@ -1,38 +1,159 @@
-.App {
+@media (min-width:960px){
+  .project-one{
+      float: left;
+      margin-left: 22%;
+      margin-bottom: 5%;
+  }
+  .project-two{
+      float: right;
+      margin-right: 22%;
+      margin-bottom: 5%;
+  }
+  .project-three{
+      float: left;
+      clear: both;
+      margin-left: 22%;
+  }
+  .project-four{
+      float: right;
+      margin-right: 22%;
+      margin-bottom: 5%;
+  }
+  .project-five{
+      float: left;
+      margin-left: 22%;
+      margin-bottom: 10%;
+      clear: both;
+  }
+  .project-six{
+      float: right;
+      margin-right: 22%;
+      margin-bottom: 10%;
+  }
+  .card-body{
+      height: 350px;
+  }
+}
+
+@media (max-width:800px){
+  .project-one, .project-two, .project-three, .project-four, .project-five, .project-six{
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      margin-bottom: 15px;
+
+  }
+}
+
+body{
+  padding-bottom: 100px;
+  background-image: url("../public/white_plaster/white_plaster.png");
+}
+
+h1, h5, h3, a, .copyright{
+  font-family: 'Roboto Mono', monospace;
+}
+
+p, .list-group-item{
+  text-align: center;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.nav{
+  border-style: solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.nav-link{
+  color: black;
+}
+
+.jumbotron{
+  background-image: url("../public/white_plaster/white_plaster.png");
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mb-3{
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url("../public/white_texture/white_texture.png");
+}
+:hover.mb-3, :hover.card{
+  border-color: yellowgreen;
+  border-width: 0.3ch;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:hover.list-group-item{
+  cursor: zoom-in;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-title, .card-subtitle, .card-link{
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.card-text{
+  padding-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-text{
+  padding-bottom: 20px;
+}
+
+.list-group{
+  text-align: center;
+}
+
+.project-one, .project-two, .project-three, .project-four, .project-five, .project-six, .list-group-item{
+  background-image: url(../public/white_texture/white_texture.png);
+}
+
+.finalcard{
+  margin-bottom: 80px;;
+}
+
+.brandstatement{
+  margin-bottom: 70px;
+}
+
+.breakcontact{
+  margin-bottom: 50px;
+}
+
+.copyright{
+  padding-top: 15px;
+}
+
+.footer {
+  height: 7%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-image: url("../public/white_plaster/white_plaster.png");
+  border-style: solid;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.card-link{
+  position: absolute;
+  bottom: 0;  
+  left: 0;
+  margin-left: 15%;
+  margin-right: 20%;
+  width: 30%;
+  margin-left: 60%;
+  padding-bottom: 5%;
+}
+
+.link-right{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 15%;  
+  width: 30%;
 }
