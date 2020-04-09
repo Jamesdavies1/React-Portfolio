@@ -32,7 +32,7 @@ Upon following the live link down below, you will find 3 pages consisting of:
 
 to get started viewing my portfolio website, please use this link to access the live web page...
 
-https://my-react-app-by-james.herokuapp.com
+https://afternoon-thicket-67560.herokuapp.com
 ------------------------------------------------------------------------------------------------------------------------------
 
 
